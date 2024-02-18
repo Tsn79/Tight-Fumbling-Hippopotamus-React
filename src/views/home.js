@@ -16,7 +16,7 @@ const Home = (props) => {
       <div className="home-header">
         <header
           data-thq="thq-navbar"
-          className="navbarContainer home-navbar-interactive"
+          className="home-navbar-interactive navbarContainer"
         >
           <span className="logo">BLOCKCHAIN</span>
           <div data-thq="thq-navbar-nav" className="home-desktop-menu">
@@ -89,7 +89,7 @@ const Home = (props) => {
         </header>
       </div>
       <div className="home-hero">
-        <div className="heroContainer home-hero1">
+        <div className="home-hero1 heroContainer">
           <div className="home-container01">
             <h1 className="home-hero-heading heading1">
               Empowering Your Blockchain Journey
@@ -167,7 +167,7 @@ const Home = (props) => {
       </div>
       <div className="home-features">
         <div className="featuresContainer">
-          <div className="home-features1">
+          <header className="home-features1">
             <div className="home-container02">
               <span className="overline">
                 <span>features</span>
@@ -262,7 +262,7 @@ const Home = (props) => {
                 subHeading="Build decentralized applications on blockchain networks"
               ></FeatureCard>
             </div>
-          </div>
+          </header>
         </div>
       </div>
       <div className="home-pricing">
